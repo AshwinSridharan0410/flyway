@@ -1,0 +1,75 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "warnings": [],
+      "timestamp": "2023-06-30T15:26:38.637291244",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "schemaVersion": "2",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "rawVersion": "1",
+          "description": "Create person table",
+          "type": "SQL",
+          "installedOnUTC": "2023-06-30T09:58:14.216882Z",
+          "state": "Future",
+          "undoable": "No",
+          "filepath": "",
+          "undoFilepath": "",
+          "installedBy": "ashwin",
+          "executionTime": 12
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "rawVersion": "2",
+          "description": "Add people",
+          "type": "SQL",
+          "installedOnUTC": "2023-06-30T10:01:31.569626Z",
+          "state": "Future",
+          "undoable": "No",
+          "filepath": "",
+          "undoFilepath": "",
+          "installedBy": "ashwin",
+          "executionTime": 13
+        }
+      ],
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "allSchemasEmpty": false,
+      "timestamp": "2023-06-30T16:48:34.456005483",
+      "operation": "info",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "2",
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "warnings": [],
+      "timestamp": "2023-07-02T21:55:24.685842342",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}

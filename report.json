@@ -1,0 +1,203 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "Create person table",
+          "type": "SQL",
+          "filepath": "/home/ashwin/flyway-9.20.0/sql/V1__Create_person_table.sql",
+          "executionTime": 12
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "warnings": [],
+      "timestamp": "2023-06-30T15:28:13.976204244",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "1",
+      "targetSchemaVersion": "2",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "Add people",
+          "type": "SQL",
+          "filepath": "/home/ashwin/flyway-9.20.0/sql/V2__Add_people.sql",
+          "executionTime": 13
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "warnings": [],
+      "timestamp": "2023-06-30T15:31:31.325324437",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "2",
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "warnings": [],
+      "timestamp": "2023-06-30T16:23:08.222402424",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "schemaVersion": "2",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "rawVersion": "1",
+          "description": "Create person table",
+          "type": "SQL",
+          "installedOnUTC": "2023-06-30T09:58:14.216882Z",
+          "state": "Success",
+          "undoable": "No",
+          "filepath": "/home/ashwin/flyway-9.20.0/sql/V1__Create_person_table.sql",
+          "undoFilepath": "",
+          "installedBy": "ashwin",
+          "executionTime": 12
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "rawVersion": "2",
+          "description": "Add people",
+          "type": "SQL",
+          "installedOnUTC": "2023-06-30T10:01:31.569626Z",
+          "state": "Success",
+          "undoable": "No",
+          "filepath": "/home/ashwin/flyway-9.20.0/sql/V2__Add_people.sql",
+          "undoFilepath": "",
+          "installedBy": "ashwin",
+          "executionTime": 13
+        }
+      ],
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "allSchemasEmpty": false,
+      "timestamp": "2023-06-30T16:25:56.143438095",
+      "operation": "info",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "schemaVersion": "2",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "rawVersion": "1",
+          "description": "Create person table",
+          "type": "SQL",
+          "installedOnUTC": "2023-06-30T09:58:14.216882Z",
+          "state": "Success",
+          "undoable": "No",
+          "filepath": "/home/ashwin/flyway-9.20.0/sql/V1__Create_person_table.sql",
+          "undoFilepath": "",
+          "installedBy": "ashwin",
+          "executionTime": 12
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "rawVersion": "2",
+          "description": "Add people",
+          "type": "SQL",
+          "installedOnUTC": "2023-06-30T10:01:31.569626Z",
+          "state": "Success",
+          "undoable": "No",
+          "filepath": "/home/ashwin/flyway-9.20.0/sql/V2__Add_people.sql",
+          "undoFilepath": "",
+          "installedBy": "ashwin",
+          "executionTime": 13
+        }
+      ],
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "allSchemasEmpty": false,
+      "timestamp": "2023-06-30T16:35:20.017432132",
+      "operation": "info",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "2",
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "warnings": [],
+      "timestamp": "2023-07-02T21:55:45.960335671",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "2",
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "warnings": [],
+      "timestamp": "2023-07-02T21:56:15.659502119",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "2",
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "changes",
+          "type": "SQL",
+          "filepath": "/home/ashwin/flyway-9.20.0/sql/V3__changes.sql",
+          "executionTime": 8
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.20.0",
+      "database": "company",
+      "warnings": [],
+      "timestamp": "2023-07-02T22:00:19.667520967",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}
